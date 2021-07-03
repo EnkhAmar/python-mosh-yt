@@ -1,7 +1,7 @@
-numbers = [1, 4, 5, 1, 3, 3]
-max = numbers[0]
-for number in numbers:
-    if number > max:
-        max = number
+from utils import find_max
 
-print(f"Max: {max}")
+
+numbers = [1, 4, 5, 1, 3, 3]
+maximum = find_max(numbers)
+
+print(f"Max: {maximum}")
